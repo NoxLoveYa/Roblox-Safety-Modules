@@ -22,10 +22,9 @@ Main server-side animation protection system.
 **Handles:**
 
  - Loading valid animation IDs from the character’s Animate script
- - Detecting whenever a new animation starts Checking if the animation
- - is whitelisted Doing a forward raycast to see if the player is
- - emoting too close to someone Blocking the animation track from
- - playing if two players are facing each other too close.
+ - Detecting whenever a new animation starts
+ - Checking if the animation is whitelisted
+ - Doing a forward raycast to see if the player is emoting too close to someone Blocking the animation track from playing if two players are facing each other too close.
 
 *This script ensures bad animations never replicate to other players.*
 > Put in ServerScriptService-> SafetyModule (Script)
